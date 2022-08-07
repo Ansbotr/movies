@@ -9,19 +9,29 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "preload" %>
 
-  
+
     <%= javascript_include_tag "application", "data-turbo-track": "preload", defer: true %>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
   </head>
 
 
   <body class="d-flex flex-column h-100">
     <main class="flex-shrink-0">
-
-    <%= render "shared/navigation" %>
-
-        <%= yield %>
+      <%= render "shared/navigation" %>
+          <%= yield %>
     </main>
-    <%= render "shared/footer" %>
-      <%= render "shared/back_to_top" %>
-  </body>
+      <%= render "shared/footer" %>
+
+
+
+
+
+
+
+    </body>
+
+
+
   </html>

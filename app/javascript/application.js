@@ -5,7 +5,20 @@ import * as bootstrap from "bootstrap"
 
 import "jquery-ui"
 
-import "./movies"
+//
+// $( document ).ready(function(){
+//   $('.category-filter').on('change', function(){
+//     console.log($(this).val());
+//     // $.ajax({
+//     //     url: 'movies',
+//     //     type: 'GET',
+//     //     dataType: 'script',
+//     //     data: { category_id: $(this).val() }
+//     // });
+//   });
+// });
+
+// import "./movies"
 
 //
 // (function() {

@@ -20,7 +20,7 @@
               <div class="row align-items-center">
                 <div class="col-4 align-items-center">
                   <div class="small">
-                    <div class="fw-bold card-text-primary">Category: Name > </div>
+                    <div class="fw-bold card-text-primary"> <%=@movie.category.name %> </div>
                   </div>
                 </div>
               </div>
@@ -34,9 +34,9 @@
                 </div>
               </div>
             </div>
-              <h5 class="card-title my-3"> Movie.title</h5>
+              <h5 class="card-title my-3"> <%=@movie.title %></h5>
               <p class="card-text mb-0">
-                  Movie.text
+                  <%=@movie.description %>
               </p>
           </div>
         </div>

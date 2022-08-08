@@ -1,11 +1,4 @@
 
-
-
-#ratingsMovieModal {
-
-  color: #000;
-}
-
 body,
 html {
   height: 100%;
@@ -20,67 +13,14 @@ body {
   padding-top: 3rem;
 }
 
-@media (min-width: 1024px) {
-  body {
-    background-attachment: fixed;
-  }
-}
-
 a {
-  // color: #ff0000;
-  text-decoration: none;
-  // :hover {
-  //   // color: #ff3333;
-  //   text-decoration: none;
-  // }
+    text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif;
+#ratingsMovieModal {
+  color: #000;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: #ff0000;
-  width: 40px;
-  height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
-}
-
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-top:hover {
-  background: #ff2929;
-  color: #fff;
-}
-
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
 .section-bg {
   background-color: #fff5f5;
 }
@@ -108,7 +48,6 @@ h6 {
 
 .info-movie{
   background: rgba(255, 255, 255, 0.06);
-
 }
 
 .filter-form {
@@ -117,9 +56,11 @@ h6 {
   padding-top: 0;
   background: rgba(255, 255, 255, 0.06);
 }
+
  .filter-form .form-group {
   padding-bottom: 8px;
 }
+
  .filter-form .validate {
   display: none;
   color: red;
@@ -190,7 +131,6 @@ h6 {
   height: 44px;
 }
 
-
 ul.movie-pagination {
   li.page-item {
     a.page-link:hover {
@@ -199,8 +139,6 @@ ul.movie-pagination {
     }
   }
 }
-
-
 
 .filter-form button[type=submit] {
   background: #ff0000;
@@ -214,37 +152,13 @@ ul.movie-pagination {
   background: #ff3333;
 }
 
-@-webkit-keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
 #footer {
   background: rgba(19, 19, 19, 0.4);
   // padding: 10px 0;
   color: #fff;
   font-size: 14px;
   position: relative;
-}
-
-#footer .copyright {
-  text-align: center;
+  .copyright {
+    text-align: center;
+  }
 }

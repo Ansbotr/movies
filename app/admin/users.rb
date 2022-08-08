@@ -1,0 +1,28 @@
+ActiveAdmin.register User do
+  permit_params :email, :password, :admin
+
+  index do
+    selectable_column
+    id_column
+    column :email
+    column :current_sign_in_at
+    column :admin
+    column :created_at
+    actions
+  end
+
+  filter :email
+  filter :current_sign_in_at
+  filter :admin
+  filter :created_at
+
+  form do |f|
+    f.inputs do
+      f.input :email
+      f.input :password
+      f.input :admin
+    end
+    f.actions
+  end
+
+end

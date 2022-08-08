@@ -1,5 +1,5 @@
 class Category < ApplicationRecord
   has_many :movies
 
-  validates :name, presence: true, unique: true
+  validates :name, presence: true, uniqueness: true
 end

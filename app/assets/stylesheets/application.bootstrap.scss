@@ -1,2 +1,11 @@
+
+$primary: #a89419;
+
+$input-group-addon-bg:                  $primary;
+$input-group-addon-border-color:        $primary;
+
+
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+@import './movies'
